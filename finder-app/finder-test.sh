@@ -54,7 +54,7 @@ make #CROSS_COMPILE=aarch64-linux-gnu-
 
 for i in $( seq 1 $NUMFILES)
 do
-	./writer_executable "$WRITEDIR/${username}$i.txt" "$WRITESTR"
+	./writer "$WRITEDIR/${username}$i.txt" "$WRITESTR"
 	
 done
 
